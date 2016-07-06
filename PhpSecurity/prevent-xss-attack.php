@@ -2,14 +2,12 @@
 
 /*  Every bit of data must be validated on input and escaped on output   */
 
-
-//todo : check sanitizeInput function ang push it to github
-function escape(&$output)
+function escape($output)
 {
     return htmlspecialchars($output);
 }
 
-function sanitizeInput(&$input)
+function sanitizeInput($input)
 {
     return trim(strip_tags($input));
 }
@@ -74,7 +72,7 @@ if (!empty($userComment)) {
 
         <div class="form-group">
             <div class="col-lg-3">
-                <button type="submit" class="btn btn-success"> Login</button>
+                <button type="submit" class="btn btn-success"> Comment </button>
             </div>
         </div>
 </div>
