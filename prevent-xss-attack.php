@@ -72,7 +72,7 @@ if (!empty($userComment)) {
 
         <div class="form-group">
             <div class="col-lg-3">
-                <button type="submit" class="btn btn-success"> Login</button>
+                <button type="submit" class="btn btn-success"> Comment </button>
             </div>
         </div>
 </div>
