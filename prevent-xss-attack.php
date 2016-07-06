@@ -2,12 +2,12 @@
 
 /*  Every bit of data must be validated on input and escaped on output   */
 
-function escape(&$output)
+function escape($output)
 {
     return htmlspecialchars($output);
 }
 
-function sanitizeInput(&$input)
+function sanitizeInput($input)
 {
     return trim(strip_tags($input));
 }
