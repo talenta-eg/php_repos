@@ -2,8 +2,6 @@
 
 /*  Every bit of data must be validated on input and escaped on output   */
 
-
-//todo : check sanitizeInput function ang push it to github
 function escape(&$output)
 {
     return htmlspecialchars($output);
