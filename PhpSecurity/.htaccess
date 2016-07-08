@@ -1,0 +1,5 @@
+#to prevent shows the directories list for your project in user's browser
+Options -Indexes
+# Hint => working only with apache server
+
+#----------------------------------------------------------------------------
